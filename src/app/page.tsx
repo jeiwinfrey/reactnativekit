@@ -5,6 +5,7 @@ import { Separator } from "@/components/ui/separator";
 import Body from "@/components/forms/body";
 import { CursorProvider, CursorFollow } from "@/components/ui/animated-cursor";
 import { ScreenHoverProvider, useScreenHover } from "@/contexts/screen-hover-context";
+import Footer from "@/components/forms/footer";
 
 function CursorFollowContent() {
   const { hoveredScreen } = useScreenHover();
@@ -31,6 +32,7 @@ export default function Home() {
           </div>
           <div className="mx-12 pt-20">
             <Body />
+            <Footer />
           </div>
         </div>
         

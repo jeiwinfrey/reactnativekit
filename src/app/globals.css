@@ -80,7 +80,7 @@
   --font-sans: "ABC Diatype", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   --font-serif: Georgia, serif;
   --font-mono: "ABC Diatype", 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
-  --radius: 0.5rem;
+  --radius: 1rem;
   --shadow-x: 0rem;
   --shadow-y: 0.0625rem;
   --shadow-blur: 0.25rem;

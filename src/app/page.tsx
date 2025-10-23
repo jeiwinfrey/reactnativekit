@@ -32,6 +32,7 @@ export default function Home() {
           </div>
           <div className="mx-12 pt-20">
             <Body />
+            <Separator />
             <Footer />
           </div>
         </div>

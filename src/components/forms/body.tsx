@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Body() {
   return (
-    <div className="py-6">
+    <div className="pt-6 pb-10">
       <div 
         className="gap-6 auto-rows-fr"
         style={{

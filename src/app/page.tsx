@@ -12,7 +12,7 @@ function CursorFollowContent() {
   if (!hoveredScreen) return null;
   
   return (
-    <div className="backdrop-blur-xl bg-white/20 border border-white/30 text-foreground px-3 py-1.5 rounded-full text-sm font-medium shadow-lg">
+    <div className="bg-gray-900 border border-gray-600 text-white px-3 py-1.5 rounded-full text-sm font-medium shadow-lg">
       {hoveredScreen}
     </div>
   );

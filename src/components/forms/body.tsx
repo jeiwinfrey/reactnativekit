@@ -1,4 +1,6 @@
+"use client";
 import { IPhoneFrame } from "@/components/ui/iphone-frame";
+import Image from "next/image";
 
 export default function Body() {
   return (
@@ -11,7 +13,14 @@ export default function Body() {
         }}
       >
         {Array.from({ length: 24 }).map((_, index) => (
-          <IPhoneFrame key={index} />
+          <IPhoneFrame key={index} screenName={`Home Screen ${index + 1}`}>
+            <Image
+              src="/screens/iphone.png"
+              alt="iPhone Screen"
+              fill
+              className="object-cover"
+            />
+          </IPhoneFrame>
         ))}
       </div>
     </div>

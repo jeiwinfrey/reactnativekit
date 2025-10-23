@@ -11,7 +11,7 @@ export default function Home() {
         <Separator />
       </div>
     </div>
-    <div className="mx-8 pt-20">
+    <div className="mx-12 pt-17">
       <Body />
     </div>
   </div>
